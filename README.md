@@ -18,6 +18,8 @@ Claims and tool spans → metrics → baseline comparison → PASS or BLOCK
 | Synthetic release fixture | Passes with one fully cited claim and two tools in the expected order |
 | Production benchmark | Pending |
 
+The fixture starts with one known citation and two ordered tool spans. Change the citation to an unknown source ID and rerun to reproduce a blocked gate. The test suite also exercises missing metrics and out-of-order or slow tool calls.
+
 ## Quickstart
 
 Python 3.11 or newer.
