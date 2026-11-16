@@ -1,0 +1,7 @@
+# Include only paths needed to package evalguard and execute its sample.
+*
+!README.md
+!pyproject.toml
+!evalguard.py
+!examples/
+!examples/**

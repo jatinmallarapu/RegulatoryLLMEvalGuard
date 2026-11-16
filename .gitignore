@@ -1,0 +1,12 @@
+# Keep evalguard credentials, caches, and generated reports out of history.
+.env
+.venv/
+__pycache__/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+runs/
